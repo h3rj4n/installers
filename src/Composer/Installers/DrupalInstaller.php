@@ -12,5 +12,7 @@ class DrupalInstaller extends BaseInstaller
         'drush'     => 'drush/{$name}/',
 	    'custom-theme' => 'themes/custom/{$name}/',
 	    'custom-module' => 'modules/custom/{$name}',
+	    'boom-theme' => 'themes/boom/{$name}/',
+	    'boom-module' => 'modules/boom/{$name}',
     );
 }
